@@ -1,0 +1,36 @@
+.channel_ch{
+    flex: 0.842;
+    margin-left: 1rem;
+}
+
+.channelHeader{
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.channelHeader img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 2rem;
+    bottom: 5px;
+}
+
+.channelHeader button{
+      text-transform: uppercase;
+      background-color: red;
+      margin-right: 3rem;
+      color: #fff;
+      font-size: 1rem;
+      padding: 0.4rem;
+      border: none;
+}
+
+.channel_video_layout{
+    flex: 0.842;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+

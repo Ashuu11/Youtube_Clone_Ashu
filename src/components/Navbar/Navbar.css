@@ -1,0 +1,123 @@
+.main-nav{
+    min-height: 52px;
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px #282828;
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0%;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar_left{
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+
+
+.navbar_logo{
+    position: relative;
+    bottom: 0.1rem;
+    right: 2rem;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.navbar_search{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 20rem;
+}
+
+.navbar_search input{
+    width: 70rem;
+    margin-left: 0%;
+}
+
+.search-btn{
+    padding: 0 0 0 0;
+    margin-top: 4px;
+    margin-right: 1px;
+    background-color: transparent;
+    width: 58px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar_search > input {
+    flex: 1;
+    border: none;
+    background-color: #1a1919;
+    padding-top: 20px;
+    color: #bebebe;
+}
+
+.navbar_search input {
+    display: flex;
+    margin: 0;
+    padding: 12px 10px 8px 8px;
+    font-size: 17px;
+}
+
+.search_icon{
+    width: 50%;
+    margin-left: 2px;
+    padding-left: 17px;
+    padding-top: 9px;
+    padding-right: 17px;
+    padding-bottom: 8px;
+    border-radius: 0 2px 2px 0;
+    background-color: #403f3f;
+}
+.search_icon:hover{
+    background-color: #494848;
+}
+
+.search_mic{
+    position: relative;
+    left: 10px;
+    background-color: #1a1919;
+    padding: 10px 10px 8px 10px;
+    border-radius: 50%;
+}
+
+.navbar_right{
+    position: relative;
+    right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_right_icons{
+    margin-right: 20px;
+}
+
+@media (max-width: 520px) {
+
+    .navbar{
+        padding: 1rem;
+    }
+
+    input{
+        flex: 1;
+    }
+}

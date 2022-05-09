@@ -1,0 +1,17 @@
+.home-main-bar{
+    flex: 0.842;
+    background-color: #1a1919;
+    padding: 40px 20px;
+}
+
+.home-main-bar > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.video_layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}

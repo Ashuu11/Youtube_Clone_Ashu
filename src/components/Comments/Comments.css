@@ -1,0 +1,26 @@
+.comments_box input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #4c4c4c;
+    color: #fff;
+}
+
+.comments_box input:focus{
+    outline: none;
+}
+
+.comments_box button{
+    margin-right: 60px;
+    background-color: #4c4c4c;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.comments_box button:hover{
+    cursor: pointer;
+}
+
+.comments_box button:focus{
+    border: none;
+    outline: none;
+}

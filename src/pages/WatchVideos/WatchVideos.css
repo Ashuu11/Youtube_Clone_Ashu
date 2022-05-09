@@ -1,0 +1,22 @@
+.Watch_Videos {
+    display: flex;
+    gap: 10px;
+    flex: 0.842;
+    background-color: #1a1919;
+}
+
+.watchvideos_player{
+    position: relative;
+    display: flex;
+    left: 10px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 0;
+}
+
+.Watch_Videos > .right_section {
+    display: block;
+    margin-top: 20px;
+    margin-right: 1rem;
+}

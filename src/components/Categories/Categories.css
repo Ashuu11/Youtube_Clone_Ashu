@@ -1,0 +1,26 @@
+.categories{
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    
+}
+.categories > span{
+    margin-right: 1rem;
+    padding: 0.5rem;
+    white-space: nowrap;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 1000px;
+    background-color: #403f3f;
+}
+
+.categories > span:hover{
+    background-color: #555454;
+    cursor: pointer;
+}
+
+ .categories > span + .active{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #4c4c4c;
+}
