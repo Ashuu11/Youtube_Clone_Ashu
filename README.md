@@ -1,3 +1,9 @@
+# Youtube Clone (React + Redux + Firebase)
+![Screenshot (78)](https://user-images.githubusercontent.com/84927939/167564752-6a44fe87-3744-401d-8024-c2b077a6b55a.png)
+![Screenshot (79)](https://user-images.githubusercontent.com/84927939/167564765-251aa125-8c3f-4127-bce3-3f73f3cbbb1b.png)
+![Screenshot (80)](https://user-images.githubusercontent.com/84927939/167564786-837aa109-5e02-4c34-8d17-9d08d16b28f1.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
